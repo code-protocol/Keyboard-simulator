@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FJ Keyboard simulator</title>
+    <script src='eel.js'></script>
+    <link rel='icon' type='image/png' href="/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container unselectable">
+        <div id="menu-statistics"></div>
+        <div id="menu">
+            <button class="c-hamburger c-hamburger-line">
+                <span>Menu</span>
+            </button>
+            <nav class='burger-menu__nav'></nav>
+        </div>
+        <div class="wrapper unselectable">
+            <div class="textLine"></div>
+        </div>
+        <div class="keyboard">
+            <div class="keys">
+                    <div class="line">
+                        <div class="key tab invisible fl_invisible"></div>
+                        <div class="key lng-q"></div>
+                        <div class="key lng-w"></div>
+                        <div class="key lng-e"></div>
+                        <div class="key lng-r"></div>
+                        <div class="key lng-t"></div>
+                        <div class="key lng-y"></div>
+                        <div class="key lng-u"></div>
+                        <div class="key lng-i"></div>
+                        <div class="key lng-o"></div>
+                        <div class="key lng-p"></div>
+                        <div class="key lng-key_1"></div>
+                        <div class="key lng-key_2"></div>
+                        <div class="key invisible fr_invisible"></div>
+                    </div>
+                    <div class="line">
+                        <div class="key invisible s_invisible"></div>
+                        <div class="key lng-a"></div>
+                        <div class="key lng-s"></div>
+                        <div class="key lng-d"></div>
+                        <div class="key lng-f"></div>
+                        <div class="key lng-g"></div>
+                        <div class="key lng-h"></div>
+                        <div class="key lng-j"></div>
+                        <div class="key lng-k"></div>
+                        <div class="key lng-l"></div>
+                        <div class="key lng-key_3"></div>
+                        <div class="key lng-key_4"></div>
+                        <div class="key invisible s_invisible"></div>
+                    </div>
+                    <div class="line">
+                        <div class="key invisible t_invisible"></div>
+                        <div class="key lng-z"></div>
+                        <div class="key lng-x"></div>
+                        <div class="key lng-c"></div>
+                        <div class="key lng-v"></div>
+                        <div class="key lng-b"></div>
+                        <div class="key lng-n"></div>
+                        <div class="key lng-m"></div>
+                        <div class="key lng-key_5"></div>
+                        <div class="key lng-key_6"></div>
+                        <div class="key lng-key_7"></div>
+                        <div class="key invisible t_invisible"></div>
+                    </div>
+                    <div class="line">
+                        <div class="key invisible l_invisible"></div>
+                        <div class="key lng-space"></div>
+                        <div class="key invisible l_invisible"></div>
+                    </div>          
+                </div>
+        </div>
+    </div>
+   <script src="menu.js"></script>
+   <script src="keydown.js"></script>
+   <script src="updateText.js"></script>
+   <!-- <script src="select.js"></script> -->
+   <script src="arrowSelector.js"></script>
+   <script src="slider.js"></script>
+   <script src="finishButtons.js"></script>
+   <script src="start.js"></script>
+</body>
+</html>
