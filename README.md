@@ -1,2 +1,2 @@
-# FJ Keyboard simulator ***3/6***
+# FJ Keyboard simulator ***6/6***
 ### Program for learning to type quickly
